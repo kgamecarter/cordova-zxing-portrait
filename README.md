@@ -134,9 +134,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-the barcodescanner portrait cordova plugin
-二维码竖屏扫描cordova插件
+## the barcodescanner portrait cordova plugin ##
+## 二维码竖屏扫描cordova插件 ##
 ===============================================================
+```
 Modify from https://github.com/phonegap/phonegap-plugin-barcodescanner and  https://github.com/xiaowei4895/zxing-android-portrait.git, the detail see below.
 1.Only keep android and ios plugin
 2.Modify switch to if else part in xiaowei4895 source code
@@ -148,8 +149,8 @@ How to modify up source code by yourself, it's my way
 3. Compile xiaowei4895 project to aar package(There have a decompression code in android/build/intermediates/exploded-aar/zxing-debug)
 4. Modify phonegap-plugin-barcodescanner plugin.xml, to see my modifyed in this project
 5. Replace the plugin zxing-debug.aar to newest and reinstall this plugin
-
-Warning:
+```
+## Warning: ##
 When installed this plugin to building your project maybe warning the android sdk conflict ,
 please modify androidManifest minSdk version code to keep same or in 'uses-sdk' and this node attribute `tools:overrideLibrary="com.google.zxing.client.android"`
 
