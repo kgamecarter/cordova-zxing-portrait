@@ -136,7 +136,6 @@ THE SOFTWARE.
 
 ## the barcodescanner portrait cordova plugin ##
 ## 二维码竖屏扫描cordova插件 ##
-===============================================================
 
 Modify from https://github.com/phonegap/phonegap-plugin-barcodescanner and  https://github.com/xiaowei4895/zxing-android-portrait.git, the detail see below.
 * 1.Only keep android and ios plugin
