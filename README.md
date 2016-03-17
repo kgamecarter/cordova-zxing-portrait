@@ -12,15 +12,8 @@ Follows the [Cordova Plugin spec](http://cordova.apache.org/docs/en/5.0.0/plugin
     
 This requires phonegap 5.0+ ( current stable v3.0.0 )
 
-    phonegap plugin add phonegap-plugin-barcodescanner
+    phonegap plugin add yourdir/cordova-zxing-portrait
 
-Older versions of phonegap can still install via the __deprecated__ id ( stale v2.0.1 )
-
-    phonegap plugin add com.phonegap.plugins.barcodescanner
-
-It is also possible to install via repo url directly ( unstable )
-
-    phonegap plugin add https://github.com/phonegap/phonegap-plugin-barcodescanner.git
 
 ### Supported Platforms
 
